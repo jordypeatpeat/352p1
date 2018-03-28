@@ -116,11 +116,16 @@ h2 {
 a {
   text-decoration: none;
   color: inherit;
+  transition: ease 0.5s;
 }
 
 a:visited {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  color: #627A9D;
 }
 
 #square, #squareSmall {

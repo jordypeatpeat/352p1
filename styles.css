@@ -11,16 +11,9 @@
   max-width: 1300px;
   margin: auto;
   font-family: 'Roboto', sans-serif;
-  min-height: 600px;
 }
 
-.last {
-  min-height: 200px;
-}
 
-.title {
-    min-height: 300px;
-}
 
 .wrapper > * {
   padding: 10px;

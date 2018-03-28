@@ -155,6 +155,8 @@ iframe {
   h1 { font-size: 4em; }
   iframe { height: 400px; }
     .wrapper { min-height: none; }
+    .cog { width: 50px; 
+      text-align: center;}
 
 }
 

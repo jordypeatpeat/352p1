@@ -10,17 +10,23 @@
   border-width: 2px 0px 0px 0px;
   max-width: 1300px;
   margin: auto;
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  min-height: 600px;
 }
 
 .last {
-  border-width: 2px 0px 2px 0px;
+  min-height: 200px;
+}
+
+.title {
+    min-height: 300px;
 }
 
 .wrapper > * {
   padding: 10px;
   flex: 1 100%;
 }
+
 
 .main, .mainTitle {
   text-align: left;
@@ -144,15 +150,19 @@ iframe {
 
 @media all and (min-width: 1350px) {
   h1 { font-size: 10em; }
+    .wrapper { min-height: none; }
 }
 
 @media all and (max-width: 850px) {
   h1 { font-size: 4em; }
   iframe { height: 400px; }
+    .wrapper { min-height: none; }
+
 }
 
 @media all and (max-width: 500px) {
   h1 { font-size: 3em; }
+    .wrapper { min-height: none; }
 }
 
 h2 {
